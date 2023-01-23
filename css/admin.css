@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    background-color: #f9dff2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFABD4;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url("../image/bphitam.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 1px 10px black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.container {
+    width: 70%;
+    height: auto;
+    background-color: #EFA8C9;
+    padding: 35px 35px 10px 35px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form input,
+.form select {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #D09CB4;
+    color: white;
+    font-size: 16px;
+}
+
+
+.containertombol {
+    text-align: right;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.containerkembali {
+    text-align: left;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form .tombol {
+    font-size: 14px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: #D09CB4;
+}
+
+
+/* efek buat dilewatin mouse */
+.tombol:hover,
+.tombol:focus {
+    filter: brightness(120%);
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 0px 20px 0px;
+} 
+
+.tabelmember {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #D09CB4;
+    border: collapse;
+}
+
+.tabel {
+    color: white;
+    text-align: center;
+    gap: 100px;
+}
+ .tabelmember .tabel {
+    border: 1px solid #999;
+    padding: 8px 20px;
+ }
+ 

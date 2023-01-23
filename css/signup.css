@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    background-color: #f9dff2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FFABD4;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-image: url("../image/bgbp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 2px 1px 10px black;
+    margin-top: 40px;
+}
+
+.container {
+    width: 55%;
+    height: auto;
+    background-color: #000;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form input,
+.form select {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    font-size: 16px;
+}
+
+.containertombol {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form .tombol {
+    font-size: 16px;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.signin {
+    font-size: 16px;
+    color: white;
+}
+
+.signina {
+    font-size: 16px;
+    color: white;
+}
+
+/* efek buat dilewatin mouse */
+.tombol:hover,
+.tombol:focus {
+    filter: brightness(170%);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 0px 20px 0px;
+}
+
